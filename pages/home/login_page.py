@@ -42,7 +42,7 @@ class LoginPage(BasePage):
         self.clickLoginLink()
         self.enterEmail(email)
         self.enterPassword(password)
-        time.sleep(2)
+        time.sleep(3)
         self.clickLoginButton()
 
     def verifyLoginSuccessful(self):
